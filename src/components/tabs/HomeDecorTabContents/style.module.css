@@ -1,0 +1,4 @@
+.contentGrid {
+  display: grid;
+  grid-template-columns: auto 400px;
+}

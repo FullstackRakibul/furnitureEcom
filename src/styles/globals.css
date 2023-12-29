@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://gist.github.com/dmurawsky/d45f068097d181c733a53687edce1919 */
+html,
+body,
+body > div:first-child,
+div#__next {
+  @apply h-full min-h-full relative;
+}
+
+img {
+  @apply w-full h-full object-cover;
+}
+
+.swiper-slide {
+  @apply h-auto flex;
+}
+.swiper-slide > div {
+  @apply flex-1;
+}

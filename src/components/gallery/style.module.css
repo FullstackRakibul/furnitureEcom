@@ -1,0 +1,25 @@
+.sliderNavigationDisabled {
+  display: none;
+}
+.sliderNavBtn {
+  @apply z-10 absolute 
+  text-2xl cursor-pointer 
+  inline-flex flex-center 
+  rounded-full bg-white border-2
+  opacity-50
+  transition
+  hover:opacity-100;
+  width: var(--swiper-navigation-size, 50px);
+  height: var(--swiper-navigation-size, 50px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sliderNavBtnPrev {
+  @apply left-4;
+}
+.sliderNavBtnNext {
+  @apply right-4;
+}
+.sliderBtnDisabled {
+  @apply hidden;
+}
